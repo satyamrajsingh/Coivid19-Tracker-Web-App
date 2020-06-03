@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(231, 229, 220, 0.938);
+    /* font-family: 'Libre Caslon Text', serif; */
+    font-family: 'Arvo', serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.box{
+    background-color:whitesmoke;
+   
+    box-shadow: 5px 10px rgb(201, 205, 206);
+    padding:0 12px 20px;   
+    margin-bottom: 1%; 
+}
+
+.box:hover{
+    background-color:rgb(197, 209, 236);
+   
+    box-shadow: 5px 10px rgb(145, 141, 201);
+    padding:0 12px 20px;   
+    margin-bottom: 1%; 
+}
+
+.comp{
+    margin-bottom: 2%;  
+}
+
+.image{
+    width: 200px;
+    margin-top:20px;
+    box-shadow: blue;
+}
+
+
+
+@media (max-width:770px){
+    .container{
+        margin:0 10px;
+    }
+
+    .image{
+        width:100%;
+    }
+}
